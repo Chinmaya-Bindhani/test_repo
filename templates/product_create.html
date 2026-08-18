@@ -1,0 +1,14 @@
+<!-- product_create.html -->
+<!DOCTYPE html>
+<html>
+<head><title>Add Product</title></head>
+<body>
+    <h1>Add Product</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+    <a href="{% url 'product_list' %}">Back to list</a>
+</body>
+</html>
