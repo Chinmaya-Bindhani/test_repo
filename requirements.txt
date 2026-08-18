@@ -3,3 +3,4 @@ gunicorn
 Pillow
 django==5.2
 psycopg2-binary
+python-dotenv==1.0.0
