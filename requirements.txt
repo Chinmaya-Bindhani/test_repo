@@ -4,3 +4,4 @@ Pillow
 django==5.2
 psycopg2-binary
 python-dotenv==1.0.0
+dj-database-url==3.1.2
